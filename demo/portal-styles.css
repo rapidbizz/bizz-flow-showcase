@@ -1,0 +1,20 @@
+/* Demo example — a small stylesheet for the staff portal example.
+   Illustrative example only, not product code. */
+
+.portal-card {
+  max-width: 480px;
+  padding: 1rem;
+  border: 1px solid #cbd5e1;
+  border-radius: 0.75rem;
+  font-family: system-ui, sans-serif;
+}
+
+.portal-card .status-accepted {
+  color: #16a34a;
+  font-weight: 700;
+}
+
+.portal-card .status-rejected {
+  color: #dc2626;
+  font-weight: 700;
+}
